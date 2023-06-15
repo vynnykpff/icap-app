@@ -1,6 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 import productCard from '../../../../data/productsCard.json';
+import {
+	DescriptionBlock,
+	ProductCardAbout,
+	ProductCardBlock,
+	ProductCardImage,
+	ProductCardTitle
+} from "./ProductCard.styled.jsx";
 
 const ProductCard = () => {
 	const {id} = useParams();
@@ -13,13 +20,13 @@ const ProductCard = () => {
 	return (
 		<>
 			{
-				productInfo && <div style={{display: 'flex', color: '#fff', justifyContent: 'space-between'}}>
-					<img width={300} src={productInfo.image} alt=""/>
-					<div>
-						<h3>{productInfo.name}</h3>
-						<p>{productInfo.description}</p>
-					</div>
-				</div>
+				productInfo && <ProductCardBlock>
+					<ProductCardImage src={productInfo.image} alt=""/>
+					<DescriptionBlock>
+						<ProductCardTitle>{productInfo.name}</ProductCardTitle>
+						<ProductCardAbout>{productInfo.description}</ProductCardAbout>
+					</DescriptionBlock>
+				</ProductCardBlock>
 			}
 		</>
 	);

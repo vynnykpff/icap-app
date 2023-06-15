@@ -1,0 +1,55 @@
+{
+  "quotely-wallpapers": [
+    {
+      "id": "4e5508fd-979d-47ad-a56b-e9a604d02f1f",
+      "name": "Quotely Wallpapers",
+      "image": "https://icapgroupgmbh.com/Quotely.jpg",
+      "description": "Inspirierende Hintergrundbilder-App: Quotely. Große Auswahl an Zitaten, Hintergrundbildern von Stars und Naturfotos."
+    }
+  ],
+  "super-easy-crm": [
+    {
+      "id": "bca65efd-d928-40c3-afa1-1ff4f2a714f8",
+      "name": "Super Easy CRM",
+      "image": "https://icapgroupgmbh.com/crm.png",
+      "description": "Super Easy CRM: Plattform zur Rationalisierung von Verkaufs- und Kundendienstprozessen.",
+      "url": "super-easy-crm"
+    }
+  ],
+  "elevate-hub": [
+    {
+      "id": "7b62adde-bac6-4103-8169-5b319dc49941",
+      "name": "ElevateHub",
+      "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989645716394034/ElevateHub.jpg",
+      "description": " A professional networking platform connecting industry experts through profiles, groups, and virtual events.",
+      "url": "elevate-hub"
+    }
+  ],
+  "fit-track": [
+    {
+      "id": "8b6ffabb-e9bb-4479-b3d1-96ca08ff3075",
+      "name": "FitTrack",
+      "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989699613216778/FitTrack.jpg",
+      "description": "A fitness tracking app with personalized plans, activity logging, and progress analytics.",
+      "url": "fit-track"
+    }
+  ],
+  "data-mastery": [
+    {
+      "id": "7c51f90c-2b47-4368-98e0-b8a242136ca0",
+      "name": "DataMastery",
+      "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989743682764950/DataMastery.jpg",
+      "description": "A robust database management system for efficient data organization and analytics.",
+      "url": "data-mastery"
+    }
+  ],
+  "eco-shop": [
+    {
+      "id": "5cbf529f-07a0-4f1c-b696-5410565ab716",
+      "name": "EcoShop",
+      "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989780789760100/EcoShop.jpg",
+      "description": "An eco-friendly e-commerce platform for sustainable products and conscious consumerism.",
+      "url": "eco-shop"
+    }
+  ]
+}

@@ -1,10 +1,15 @@
 import './App.css'
+import {Route, Routes} from "react-router-dom";
+import {home} from "./shared/constants/routes.js";
+import Layout from "./components/ui/layout/Layout.jsx";
 
 const App = () => {
   return (
-    <>
-      <h2>Home page</h2>
-    </>
+    <Routes>
+      <Route path={home} element={<Layout/>}>
+
+      </Route>
+    </Routes>
   )
 }
 

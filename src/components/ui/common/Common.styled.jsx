@@ -34,11 +34,6 @@ const CardTitle = styled.h4`
 	padding: 15px 0;
 `;
 
-const CardContent = styled.div`
-`;
-
-const ImageBlock = styled.div`
-`;
 const Image = styled.img`
 	width: 100%;
 	height: 240px;
@@ -48,6 +43,9 @@ const Image = styled.img`
 `;
 
 const CardDescription = styled.p`
+  display: flex;
+	align-items: center;
+	height: 150px;
 	text-align: center;
 	padding: 15px 20px;
 	margin: 0;
@@ -56,4 +54,4 @@ const CardDescription = styled.p`
 `;
 
 
-export {Wrapper, Card, CardContent, CardTitle, CardsBlock, ImageBlock, Image, CardDescription};
+export {Wrapper, Card, CardTitle, CardsBlock, Image, CardDescription};

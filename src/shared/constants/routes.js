@@ -1,7 +1,7 @@
 export const ROUTES = {
 	home: '/',
-	branches: '/losungen',
-	branchesCard: '/losungen/:id',
+	branches: 'losungen',
+	branchesCard: 'losungen/:id',
 	all: '*',
 };
 

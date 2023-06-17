@@ -56,7 +56,7 @@ const NavAdditionalList = styled.div`
 
 const NavItem = styled(NavLink)`
   display: flex;
-  color: var(--link-color);
+  color: var(--text-color);
   text-decoration: none;
   font-size: ${fontSizeLink};
   transition: color 0.3s ease;

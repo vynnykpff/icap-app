@@ -2,46 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 * {
-  font-family: 'JetBrains Mono', monospace;
-  box-sizing: border-box;
+	font-family: 'JetBrains Mono', monospace;
+	box-sizing: border-box;
 }
 
 :root[data-theme="light"] {
-  --background-color: #FAF2EF;
-
-  --header-color: #eee5e2;
-
-  --footer-color: #bab3b1;
-  --footer-color--text: #d1d1d1;
-  --right-color: #868180;
-
-  --link-color: #242424;
-  --accent-color: #ff6600;
-
-  --shops-color: linear-gradient(122deg, rgba(245,119,106,1) 4%, rgba(255,186,89,1) 45%);
-
-  --text-color: #212121;
+	--background-color: #dcdcdd;
+	--header-color: #e9e9eb;
+	--accent-color: #ff6600;
+	--text-color: #232938;
+	--card-color: linear-gradient(122deg, rgba(246,245,255,1) 9%, rgba(242,242,244,1) 37%, rgba(246,245,255,1) 77%, rgba(239,240,235,1) 98%);
 }
 
 :root[data-theme="dark"] {
-  --background-color: #242424;
-
-  --header-color: #333;
-
-  --footer-color: #333;
-  --footer-color--text: #ccc;
-  --right-color: #444;
-
-  --link-color: #bbe903;
-  --accent-color: #fd239d;
-
-  --shops-color:linear-gradient(122deg, rgba(12,79,86,1) 4%, rgba(17,114,124,1) 45%);
-
-
-  --text-color: #f5f6f7;
+	--background-color: #232938;
+	--header-color: #43506c;
+	--accent-color: #ef4b4c;
+	--text-color: #e9e9eb;
+	--card-color: linear-gradient(122deg, rgba(67, 80, 108, 1) 60%, rgba(90, 108, 146, 1) 100%);
 }
 
 body {
-  background-color: var(--background-color);
-  transition: all 0.5s ease;
+	background-color: var(--background-color);
+	transition: all 0.5s ease;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: var(--header-color);
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: var(--text-color);
 }

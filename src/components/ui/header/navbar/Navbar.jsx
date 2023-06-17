@@ -54,7 +54,7 @@ const Navbar = () => {
 					<NavItemTheme onClick={() => {
 						handleChange()
 					}}>
-						{theme === 'light' ? <BiMoon style={{color: "#242424"}}/> : <BiSun style={{color: "#fff"}}/>}
+						{theme === 'light' ? <BiMoon style={{color: "var(--text-color)"}}/> : <BiSun style={{color: "var(--text-color)"}}/>}
 					</NavItemTheme>
 				</NavAdditionalList>
 				<MobileNav onClick={() => setNav(!nav)}>

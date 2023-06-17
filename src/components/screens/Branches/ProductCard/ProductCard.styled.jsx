@@ -4,7 +4,7 @@ const ProductCardBlock = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
+  color: var(--text-color);
   margin: 40px 0;
 `;
 
@@ -13,7 +13,7 @@ const ProductCardImage = styled.img`
 	height: 300px;
 	object-fit: cover;
   border-radius: 20px;
-  border: 2px solid #ff6600;
+  border: 2px solid var(--accent-color);
 `;
 
 const DescriptionBlock = styled.div`

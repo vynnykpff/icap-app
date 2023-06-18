@@ -1,10 +1,10 @@
-import{n as o,ah as a,ad as e}from"./index-fff66478.js";const r=o.div`
+import{n as t,ah as e,ad as a,t as o}from"./index-295bad72.js";const i=t.div`
   display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 40px;
-`,i=o(a)`
+`,n=t(e)`
   background: var(--card-color);
 	border: 2px solid var(--accent-color);
 	width: 350px;
@@ -15,17 +15,23 @@ import{n as o,ah as a,ad as e}from"./index-fff66478.js";const r=o.div`
 	align-items: center;
 	text-decoration: none;
 	color: var(--text-color);
-  box-shadow: ${e};
+  box-shadow: ${a};
 	
 	&.team-card {
 		height: 420px;
 	}
+
+  @media (max-width: ${o}) {
+	  text-align: center;
+    width: 300px;
+	  font-size: 16px;
+  }
 	
-`,c=o.h4`
+`,c=t.h4`
 	font-size: 25px;
 	margin: 0;
-	padding: 15px 0;
-`,n=o.p`
+	padding: 15px 5px;
+`,d=t.p`
   display: flex;
 	align-items: center;
 	height: 150px;
@@ -35,10 +41,10 @@ import{n as o,ah as a,ad as e}from"./index-fff66478.js";const r=o.div`
   border-bottom: 2px solid var(--accent-color);
 	letter-spacing: 1.2px;
 	font-weight: 600;
-`,d=o.img`
+`,p=t.img`
 	width: 100%;
 	height: 240px;
 	object-fit: cover;
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
-`;export{r as C,i as a,c as b,d as c,n as d};
+`;export{i as C,n as a,c as b,p as c,d};

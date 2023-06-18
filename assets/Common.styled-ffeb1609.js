@@ -1,4 +1,4 @@
-import{n as o,t as a,ae as t}from"./index-fff66478.js";const r=o.div`
+import{n as o,t as a,ae as t}from"./index-295bad72.js";const r=o.div`
   margin: 40px 0;
   color: var(--text-color);
 `,e=o.h3`

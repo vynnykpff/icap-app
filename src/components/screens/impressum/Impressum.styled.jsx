@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import {List} from "antd";
 import {baseBoxShadow, baseTransition} from "../../../shared/constants/variables.js";
+import {tablet} from "../../../shared/constants/mediaQueries.js";
 
 const ListItemWrapper = styled.div`
   margin-bottom: 15px;
@@ -27,6 +28,11 @@ const ListItem = styled(List.Item)`
     opacity: 0.7;
 	  transition: ${baseTransition};
   }
+
+  @media (max-width: ${tablet}) {
+    font-size: 16px;
+  }
+	
 `;
 
 export {ListItemWrapper, ListItem};

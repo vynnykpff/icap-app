@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import {baseTransition} from "../../../shared/constants/variables.js";
+import {tablet} from "../../../shared/constants/mediaQueries.js";
 
 const Wrapper = styled.div`
   margin: 40px 0;
@@ -12,6 +13,11 @@ const Title = styled.h3`
   font-weight: 700;
   letter-spacing: 1.5px;
   text-align: center;
+
+  @media (max-width: ${tablet}) {
+	  font-size: 25px;
+  }
+	
 `;
 
 const Button = styled.span`

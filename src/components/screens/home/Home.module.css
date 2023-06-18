@@ -1,0 +1,17 @@
+.icons-block{
+	display: flex;
+	margin: 0 auto 40px auto;
+	flex-wrap: wrap;
+	max-width: 360px;
+}
+
+.icon {
+	width: 120px;
+	transition: transform .3s ease;
+
+}
+
+.icon:hover {
+	transform: scale(1.04);
+	transition: transform .3s ease;
+}

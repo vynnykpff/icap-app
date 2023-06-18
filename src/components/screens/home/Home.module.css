@@ -1,8 +1,9 @@
 .icons-block{
 	display: flex;
+	justify-content: center;
 	margin: 0 auto 40px auto;
 	flex-wrap: wrap;
-	max-width: 360px;
+	max-width: 80%;
 }
 
 .icon {

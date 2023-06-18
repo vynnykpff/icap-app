@@ -8,33 +8,38 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 100px;
-
-  //@media (max-width: 768px) {
-  //  display: flex;
-  //  flex-direction: column;
-  //  justify-content: center;
-  //  align-items: center;
-  //  row-gap: 50px;
-  //  position: fixed;
-  //  left: -100%;
-  //  right: 0;
-  //  top: 0;
-  //  bottom: 0;
-  //  width: 100%;
-  //  height: 100vh;
-  //  background: var(--background-color);
-  //  z-index: 10;
-  //  transition: left 0.5s;
-  //
-  //  &.active {
-  //    left: 0;
-  //  }
 `
+
+const NavWrapperList = styled.span`
+  display: flex;
+	column-gap: 60px;
+
+  @media (max-width: ${tablet}) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    position: fixed;
+    left: -100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--background-color);
+    z-index: 10;
+    transition: left 0.5s;
+
+    &.active {
+      left: 0;
+    }
+`;
 
 const MobileNav = styled.div`
   display: block;
   z-index: 10;
-  @media (min-width: ${tablet}) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;
@@ -47,11 +52,16 @@ const NavList = styled.div`
   display: flex;
   align-items: center;
   column-gap: 60px;
+
+  @media (max-width: ${tablet}) {
+    flex-direction: column;
+	  align-items: center;
+	  row-gap: 60px;
 `;
 
 const NavAdditionalList = styled.div`
   display: flex;
-  column-gap: 25px;
+  column-gap: 20px;
 `;
 
 const NavItem = styled(NavLink)`
@@ -102,4 +112,4 @@ const NavItemTheme = styled.span`
 `;
 
 
-export {Nav, MobileNav, LogoImage, NavList, NavAdditionalList, NavItemAnchor, NavItem, NavItemTheme};
+export {Nav, MobileNav, LogoImage, NavList, NavAdditionalList, NavItemAnchor, NavItem, NavItemTheme, NavWrapperList};

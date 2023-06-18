@@ -5,8 +5,7 @@ export const ROUTES = {
 	favorites: 'favorites',
 	about: 'about',
 	impressum: 'impressum',
-	contacts: 'contacts',
 	all: '*',
 };
 
-export const {home, branches, branchesCard, favorites, about, impressum, contacts, all} = ROUTES;
+export const {home, branches, branchesCard, favorites, about, impressum, all} = ROUTES;

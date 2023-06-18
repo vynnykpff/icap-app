@@ -22,6 +22,11 @@ const Card = styled(NavLink)`
 	text-decoration: none;
 	color: var(--text-color);
   box-shadow: ${baseBoxShadow};
+	
+	&.team-card {
+		height: 420px;
+	}
+	
 `;
 
 const CardTitle = styled.h4`

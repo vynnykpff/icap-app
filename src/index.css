@@ -11,7 +11,8 @@
 	--header-color: #e9e9eb;
 	--accent-color: #ff6600;
 	--text-color: #232938;
-	--card-color: linear-gradient(122deg, rgba(246,245,255,1) 9%, rgba(242,242,244,1) 37%, rgba(246,245,255,1) 77%, rgba(239,240,235,1) 98%);
+	--card-color: linear-gradient(122deg, rgba(246, 245, 255, 1) 9%, rgba(242, 242, 244, 1) 37%, rgba(246, 245, 255, 1) 77%, rgba(239, 240, 235, 1) 98%);
+
 }
 
 :root[data-theme="dark"] {
@@ -20,6 +21,7 @@
 	--accent-color: #ef4b4c;
 	--text-color: #e9e9eb;
 	--card-color: linear-gradient(122deg, rgba(67, 80, 108, 1) 60%, rgba(90, 108, 146, 1) 100%);
+
 }
 
 body {

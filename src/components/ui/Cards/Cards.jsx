@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
 import db from "../../../data/products.json";
-import {FavoriteButton} from "../../screens/Branches/Branches.styled.jsx";
 import {TbHeartMinus, TbHeartPlus} from "react-icons/tb";
 import {useDispatch, useSelector} from "react-redux";
 import {initializeStatusCards, toggleCardStatus} from "../../../store/status-card/statusCard.slice.js";
 import {Card, CardDescription, CardImage, CardsBlock, CardTitle} from "./Cards.styled.jsx";
+import {Button} from "../common/Common.styled.jsx";
 
 const Cards = () => {
 	const statusCards = useSelector((store) => store.statusCard.statusCards);
@@ -48,12 +48,12 @@ const Cards = () => {
 					<CardTitle>{product.name}</CardTitle>
 					<CardImage src={product.image}/>
 					<CardDescription>{product.description}</CardDescription>
-					<FavoriteButton
+					<Button
 						className={statusCards[product.id] && statusCards[product.id].status ? "addStatus" : "removeStatus"}
 						onClick={(e) => handleClick({product, e})}
 					>
 						{statusCards[product.id] && statusCards[product.id].status ? <TbHeartMinus/> : <TbHeartPlus/>}
-					</FavoriteButton>
+					</Button>
 				</Card>
 			))}
 		</CardsBlock>

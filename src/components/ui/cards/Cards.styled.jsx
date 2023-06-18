@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import {NavLink} from "react-router-dom";
 import {baseBoxShadow} from "../../../shared/constants/variables.js";
+import {tablet} from "../../../shared/constants/mediaQueries.js";
 
 const CardsBlock = styled.div`
   display: flex;
@@ -26,13 +27,19 @@ const Card = styled(NavLink)`
 	&.team-card {
 		height: 420px;
 	}
+
+  @media (max-width: ${tablet}) {
+	  text-align: center;
+    width: 300px;
+	  font-size: 16px;
+  }
 	
 `;
 
 const CardTitle = styled.h4`
 	font-size: 25px;
 	margin: 0;
-	padding: 15px 0;
+	padding: 15px 5px;
 `;
 
 const CardDescription = styled.p`

@@ -1,6 +1,6 @@
 # **ICAP Technical Tasks**
 
-## [**<u>Link to website</u>**](https://youtu.be/tCn5hzxJi2o)
+## [**<u>Link to website</u>**](https://vynnykpff.github.io/icap-app/)
 
 ---
 

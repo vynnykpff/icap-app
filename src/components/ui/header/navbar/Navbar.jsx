@@ -13,7 +13,7 @@ import {
 } from "./Navbar.styled.jsx";
 import {Container} from "../../layout/Layout.styled.jsx";
 import {useDispatch, useSelector} from "react-redux";
-import {home} from "../../../../shared/constants/routes.js";
+import {about, branches, favorites, home, impressum} from "../../../../shared/constants/routes.js";
 import {set} from "../../../../store/theme/theme.slice.js";
 import lightDesktopLogo from '../../../../assets/images/desktop-logo/icap-light-logo.png';
 import darkDesktopLogo from '../../../../assets/images/desktop-logo/icap-dark-logo.png';
@@ -44,13 +44,12 @@ const Navbar = () => {
 					<LogoImage src={theme === 'light' ? lightDesktopLogo : darkDesktopLogo} alt="logo"/>
 				</NavItem>
 				<NavList>
-					<NavItem to="/losungen"><NavItemAnchor>Lösungen</NavItemAnchor></NavItem>
-					<NavItem to="/uber-uns"><NavItemAnchor>Über uns</NavItemAnchor></NavItem>
-					<NavItem to="/impressum"><NavItemAnchor>Impressum</NavItemAnchor></NavItem>
+					<NavItem to={branches}><NavItemAnchor>Lösungen</NavItemAnchor></NavItem>
+					<NavItem to={about}><NavItemAnchor>Über uns</NavItemAnchor></NavItem>
+					<NavItem to={impressum}><NavItemAnchor>Impressum</NavItemAnchor></NavItem>
 				</NavList>
 				<NavAdditionalList>
-					<NavItem to="/contacts"><BiPhoneCall/></NavItem>
-					<NavItem to="/favorites"><AiOutlineHeart/></NavItem>
+					<NavItem to={favorites}><AiOutlineHeart/></NavItem>
 					<NavItemTheme onClick={() => {
 						handleChange()
 					}}>

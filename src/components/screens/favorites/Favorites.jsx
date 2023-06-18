@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Button, Title, Wrapper} from "../../ui/common/Common.styled.jsx";
-import {Card, CardDescription, CardImage, CardsBlock, CardTitle} from "../../ui/Cards/Cards.styled.jsx";
+import {Card, CardDescription, CardImage, CardsBlock, CardTitle} from "../../ui/cards/Cards.styled.jsx";
 import {branches} from "../../../shared/constants/routes.js";
 import {IoMdCloseCircleOutline} from "react-icons/io";
 

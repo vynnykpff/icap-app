@@ -4,7 +4,8 @@
       "id": "4e5508fd-979d-47ad-a56b-e9a604d02f1f",
       "name": "Quotely Wallpapers",
       "image": "https://icapgroupgmbh.com/Quotely.jpg",
-      "description": "Get inspired and motivated with Quotely - your personalized wallpaper app. Choose from a wide selection of motivational quotes, celebrity wallpapers, stunning nature shots, and more - Quotely has it all! One-click automation makes it easy to switch up your background, and personalized recommendations ensure you'll always have something you love."
+      "description": "Get inspired and motivated with Quotely - your personalized wallpaper app. Choose from a wide selection of motivational quotes, celebrity wallpapers, stunning nature shots, and more - Quotely has it all! One-click automation makes it easy to switch up your background, and personalized recommendations ensure you'll always have something you love.",
+      "store": "https://apps.apple.com/ua/app/quotely-wallpapers/id1642336358"
     }
   ],
   "super-easy-crm": [
@@ -13,7 +14,7 @@
       "name": "Super Easy CRM",
       "image": "https://icapgroupgmbh.com/crm.png",
       "description": "Experience the power of effortless CRM management with Super Easy CRM's highly intuitive and user-friendly interface. Say goodbye to complex navigation and hello to a streamlined and efficient workflow.",
-      "url": "super-easy-crm"
+      "store": "https://apps.apple.com/ua/app/super-easy-crm/id6447245139"
     }
   ],
   "elevate-hub": [
@@ -21,7 +22,8 @@
       "id": "7b62adde-bac6-4103-8169-5b319dc49941",
       "name": "ElevateHub",
       "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1119344903424577578/ElevateHub.jpg",
-      "description": "ElevateHub is a dynamic web platform designed to connect professionals from various industries, fostering collaboration, knowledge sharing, and networking. Users can create profiles, join industry-specific groups, access educational resources, and participate in virtual events, all within a vibrant and engaging online community."
+      "description": "ElevateHub is a dynamic web platform designed to connect professionals from various industries, fostering collaboration, knowledge sharing, and networking. Users can create profiles, join industry-specific groups, access educational resources, and participate in virtual events, all within a vibrant and engaging online community.",
+      "store": ""
     }
   ],
   "fit-track": [
@@ -29,7 +31,8 @@
       "id": "8b6ffabb-e9bb-4479-b3d1-96ca08ff3075",
       "name": "FitTrack",
       "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989699613216778/FitTrack.jpg",
-      "description": "FitTrack is a comprehensive mobile application that helps users track their fitness goals and monitor their progress. With a user-friendly interface and personalized features, users can set workout plans, log their activities, track calories burned, and receive insightful analytics to optimize their health and fitness journey."
+      "description": "FitTrack is a comprehensive mobile application that helps users track their fitness goals and monitor their progress. With a user-friendly interface and personalized features, users can set workout plans, log their activities, track calories burned, and receive insightful analytics to optimize their health and fitness journey.",
+      "store": ""
     }
   ],
   "data-mastery": [
@@ -37,7 +40,8 @@
       "id": "7c51f90c-2b47-4368-98e0-b8a242136ca0",
       "name": "DataMastery",
       "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989743682764950/DataMastery.jpg",
-      "description": "DataMastery is a powerful database management system designed to streamline data organization and analysis for businesses of all sizes. With robust data storage, efficient retrieval algorithms, and advanced analytics capabilities, DataMastery empowers businesses to make data-driven decisions, enhance operational efficiency, and gain a competitive edge in the market."
+      "description": "DataMastery is a powerful database management system designed to streamline data organization and analysis for businesses of all sizes. With robust data storage, efficient retrieval algorithms, and advanced analytics capabilities, DataMastery empowers businesses to make data-driven decisions, enhance operational efficiency, and gain a competitive edge in the market.",
+      "store": ""
     }
   ],
   "eco-shop": [
@@ -45,7 +49,8 @@
       "id": "5cbf529f-07a0-4f1c-b696-5410565ab716",
       "name": "EcoShop",
       "image": "https://cdn.discordapp.com/attachments/1118989514489217054/1118989780789760100/EcoShop.jpg",
-      "description": "EcoShop is an eco-friendly e-commerce platform that promotes sustainable products and conscious consumerism. The website features a curated selection of environmentally friendly products across various categories, allowing users to shop with a focus on reducing their carbon footprint. EcoShop also provides educational resources and tips for a greener lifestyle."
+      "description": "EcoShop is an eco-friendly e-commerce platform that promotes sustainable products and conscious consumerism. The website features a curated selection of environmentally friendly products across various categories, allowing users to shop with a focus on reducing their carbon footprint. EcoShop also provides educational resources and tips for a greener lifestyle.",
+      "store": ""
     }
   ]
 }

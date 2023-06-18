@@ -1,6 +1,6 @@
 import {BranchesQuote} from "./Branches.styled.jsx";
 import {Title, Wrapper} from "../../ui/common/Common.styled.jsx";
-import Cards from "../../ui/Cards/Cards.jsx";
+import Cards from "../../ui/cards/Cards.jsx";
 
 const Branches = () => {
 	return (
